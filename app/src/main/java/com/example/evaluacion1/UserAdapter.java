@@ -64,7 +64,6 @@ public class UserAdapter extends BaseAdapter {
         editButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Aquí debes mostrar el cuadro de diálogo de edición
                 showEditUserDialog(userId);
             }
         });
@@ -97,11 +96,9 @@ public class UserAdapter extends BaseAdapter {
     }
 
     private void showEditUserDialog(int userId) {
-        // Crea el cuadro de diálogo de edición similar al de agregar
         final Dialog editUserDialog = new Dialog(context);
         editUserDialog.setContentView(R.layout.editar);
 
-        // Obtén referencias a las vistas dentro del cuadro de diálogo
         EditText usernameEditText = editUserDialog.findViewById(R.id.usernameEditTextView);
         EditText emailEditText = editUserDialog.findViewById(R.id.emailEditTextView);
         EditText phoneEditText = editUserDialog.findViewById(R.id.txt_SignUp_Edit_Phone);
@@ -109,42 +106,30 @@ public class UserAdapter extends BaseAdapter {
         Button saveButton = editUserDialog.findViewById(R.id.btn_edit_user);
         Button cancelButton = editUserDialog.findViewById(R.id.btn_cancel);
 
-        // Aquí deberías cargar la información actual del usuario a editar y mostrarla en las vistas EditText
-
-        // Configura un OnClickListener para el botón "Save"
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Aquí obtén los valores editados de las vistas EditText y actualiza el usuario en la base de datos
                 String newUsername = usernameEditText.getText().toString();
                 String newEmail = emailEditText.getText().toString();
                 String newPhone = phoneEditText.getText().toString();
                 String newPassword = passwordEditText.getText().toString();
-
-                // Actualiza los datos del usuario en la base de datos
                 int result = dataManager.updateUser(userId, newUsername, newEmail, newPhone, newPassword);
 
                 if (result > 0) {
-                    // Si la actualización fue exitosa, cierra el cuadro de diálogo de edición
                     editUserDialog.dismiss();
-
-                    // Actualiza la vista
                     cursor.requery();
                     notifyDataSetChanged();
                 }
             }
         });
 
-        // Configura un OnClickListener para el botón "Cancel"
         cancelButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Cierra el cuadro de diálogo de edición
                 editUserDialog.dismiss();
             }
         });
 
-        // Muestra el cuadro de diálogo de edición
         editUserDialog.show();
     }
 }

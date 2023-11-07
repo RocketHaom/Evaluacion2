@@ -42,7 +42,7 @@ public class activity_user_editor extends AppCompatActivity {
         addUserDialog = new Dialog(this);
         addUserDialog.setContentView(R.layout.agregar);
 
-        Button addUserButton = addUserDialog.findViewById(R.id.btn_edit_user);
+        Button addUserButton = addUserDialog.findViewById(R.id.btn_add_user);
         Button cancelButton = addUserDialog.findViewById(R.id.btn_cancel);
 
         addUserButton.setOnClickListener(new View.OnClickListener() {
