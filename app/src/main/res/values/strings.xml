@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Evaluacion1</string>
+    <string name="logo_description">Logo de Santo Tomás</string>
+    <string name="letter_logo_description">Santo Tomás</string>
+    <string name="txt_email_LogIn_description">Correo electrónico</string>
+    <string name="txt_password_LogIn_description">Contraseña</string>
+    <string name="btn_LogIn_description">Iniciar sesión</string>
+    <string name="textView_LogIn">¿No tienes una cuenta?</string>
+    <string name="textView_txt_btn_Sign_Up"><u>Crear cuenta</u></string>
+    <string name="checkbox_txt_EULA"><font color="#FF000000">He leído y acepto los </font><u><font color="#084434">términos y condiciones</font></u></string>
+    <string name="txt_username_SignUp_description">Nombre de usuario</string>
+    <string name="txt_email_SignUp_description">Correo electrónico</string>
+    <string name="txt_phone_SignUp_description">Número de celular</string>
+    <string name="txt_password_SignUp_description">Contraseña</string>
+    <string name="btn_SignUp_description">Crear cuenta</string>
+    <string name="txt_btn_INFO">Acerca de</string>
+    <string name="txt_vacio"></string>
+    <string name="txt_EULA_1">Santo Tomás es la titular exclusiva de todos los derechos de propiedad intelectual, industrial y análogos que pudieran recaer sobre el sitio Web, el ambiente virtual de aprendizaje sus contenidos, con excepción de aquellos contenidos en los que existan acuerdos particulares con terceros ajenos a las instituciones Santo Tomás.</string>
+    <string name="txt_EULA_2">Todos los contenidos incluidos en este sitio, como textos, material gráfico, logotipos, íconos de botones, códigos fuente, imágenes, audio clips, descargas digitales y compilaciones de datos, son propiedad de las instituciones Santo Tomás o de sus académicos y/o proveedores de contenidos, y están protegidos por la ley 17.336 sobre propiedad intelectual y por los tratados internacionales ratificados por Chile.</string>
+    <string name="txt_EULA_3">Los materiales gráficos, logotipos, encabezados de páginas, frases publicitarias, iconos de botones, textos escritos y nombres de servicios incluidos en este sitio son marcas comerciales, creaciones o imágenes comerciales de propiedad de las instituciones Santo Tomás en Chile y en otros países. Dichas marcas, creaciones e imágenes comerciales no se pueden usar en relación con ningún producto o servicio que pueda causar confusión entre los clientes y en ninguna forma que desprestigie o desacredite a Santo Tomás. Las demás marcas comerciales que no sean de propiedad de las instituciones Santo Tomás y que aparezcan en este sitio pertenecen a sus respectivos dueños.</string>
+    <string name="txt_EULA_4">Los usuarios no están autorizados para copiar, distribuir (incluyendo correos electrónicos e Internet), transmitir, comunicar, modificar, alterar, transformar, ceder o, en cualquier otra forma desplegar actividades que conlleven el uso comercial del Sitio Web y del ambiente virtual de aprendizaje, sus páginas, contenidos o elementos que lo integran, ya sea con carácter parcial o total, sin que conste el expreso consentimiento, otorgado por escrito, del legítimo titular de los derechos de explotación.</string>
+    <string name="txt_EULA_5">Salvo que sea expresamente declarado, todos los materiales de los cursos o contenidos del sitio Web y el ambiente virtual de aprendizaje están sujetos a los derechos de autor, propiedad intelectual e industrial y copyright que son de las Instituciones Santo Tomás. Los materiales de los cursos impartidos en el Sitio Web y el ambiente virtual de aprendizaje no pueden ser reproducidos de ninguna forma ni a través de ningún medio sin el permiso previo escrito de parte de las instituciones Santo Tomás.</string>
+    <string name="txt_EULA_6">Permiso para reproducir y utilizar el material de las presentaciones, pero siempre sujetos a las condiciones acordadas y establecidas en estos Términos y Condiciones.</string>
+    <string name="txt_EULA_7">Todos los derechos no expresamente otorgados en estos Términos y Condiciones son reservados por las instituciones Santo Tomás o sus cesionarios, proveedores, editores, titulares de derechos u otros proveedores de contenidos. Ningún producto, imagen o sonido pueden ser reproducidos, duplicados, copiados, vendidos, revendidos, visitados o explotados para ningún fin, en todo o en parte, sin el consentimiento escrito previo de las instituciones Santo Tomás. No se puede enmarcar o utilizar técnicas de enmarcación para encerrar alguna marca comercial, logotipo u otra información registrada o patentada (incluyendo imágenes, texto, disposición de páginas, o formulario) de las instituciones Santo Tomás, sin consentimiento escrito previo. Tampoco se puede usar meta etiquetas ni ningún otro “texto oculto” que use el nombre o marcas comerciales de las instituciones Santo Tomás sin autorización escrita previa de Santo Tomás. Se prohíbe hacer un uso indebido de este sitio o de estas obras, marcas, licencias o patentes. Lo anterior, sin perjuicio de las excepciones expresamente señaladas en la ley.</string>
+    <string name="txt_EULA_8">Las instituciones Santo Tomás respetan los derechos de propiedad intelectual de nuestros proveedores de contenido, profesores, académicos, instructores, alumnos y otros terceros y se exige a los usuarios del Sitio Web y del ambiente virtual de aprendizaje hagan lo mismo al utilizar los Servicios. Las instituciones Santo Tomás se reservan el derecho de suspender, deshabilitar o cancelar las cuentas de los usuarios que infrinjan repetidamente o sean acusados repetidamente de infringir los derechos de autor, marcas registradas u otros derechos de propiedad intelectual de otros.</string>
+    <string name="txt_EULA_9">En el caso de uso en el Sitio de material proveniente de fuentes externas o de terceros (noticias, anuncios, datos estadísticos, referencias, imágenes, videos, etcétera) sujeto a uso restringido, las instituciones Santo Tomás ofrecerán dicho material con mención de la persona o entidad que posea la propiedad intelectual del mismo. Sin perjuicio de lo anterior, Santo Tomás no se hace responsable por la veracidad o exactitud de la información contenida en los enlaces a otros sitios Web o que haya sido entregada por terceros.</string>
+    <string name="btn_Rating">Calificar esta aplicación</string>
+    <string name="btn_CRUD">Gestionar usuarios</string>
+    <string name="btn_SEDES">Ver sedes</string>
+    <string name="map_Description">Mapa de Google™ Maps</string>
+    <string name="btn_Add_user">Añadir usuario</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView_ST_Logo_Log_In"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:contentDescription="@string/logo_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062"
+        app:srcCompat="@drawable/santo_tomas_logo"
+        tools:srcCompat="@drawable/santo_tomas_logo" />
+
+    <ImageView
+        android:id="@+id/imageView_ST_Letter_Log_In"
+        android:layout_width="267dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/letter_logo_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254"
+        app:srcCompat="@drawable/santo_tomas_letter" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="323dp"
+        android:layout_height="167dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569">
+
+        <EditText
+            android:id="@+id/txt_LogIn_Email"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:ems="10"
+            android:hint="@string/txt_email_LogIn_description"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/SantoTomas"
+            android:backgroundTint="@color/SantoTomas"
+            android:textColorHint="@color/SantoTomas"
+            android:autofillHints="emailAddress"/>
+
+
+
+        <EditText
+            android:id="@+id/txt_LogIn_Password"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:ems="10"
+            android:hint="@string/txt_password_LogIn_description"
+            android:importantForAccessibility="yes"
+            android:inputType="textPassword"
+            android:textColor="@color/SantoTomas"
+            android:textColorHint="@color/SantoTomas"
+            android:backgroundTint="@color/SantoTomas"
+            android:autofillHints="password"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Log_In"
+        android:layout_width="148dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/SantoTomas"
+        android:text="@string/btn_LogIn_description"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_LogIn"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <TextView
+        android:id="@+id/txt_btn_Sign_Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToActivitySignUp"
+        android:text="@string/textView_txt_btn_Sign_Up"
+        android:textColor="@color/SantoTomas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_menu">
+
+    <Button
+        android:id="@+id/btn_go_to_CRUD"
+        android:layout_width="148dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/SantoTomas"
+        android:text="@string/btn_CRUD"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949" />
+
+    <Button
+        android:id="@+id/btn_go_to_SEDES"
+        android:layout_width="148dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/SantoTomas"
+        android:text="@string/btn_SEDES"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <ImageView
+        android:id="@+id/imageView_ST_Letter_Menu"
+        android:layout_width="267dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/letter_logo_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062"
+        app:srcCompat="@drawable/santo_tomas_letter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity_sign_up">
+
+    <ImageView
+        android:id="@+id/imageView_ST_Logo_Sign_Up"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:contentDescription="@string/logo_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062"
+        app:srcCompat="@drawable/santo_tomas_logo"
+        tools:srcCompat="@drawable/santo_tomas_logo" />
+
+    <ImageView
+        android:id="@+id/imageView_ST_Letter_Sign_Up"
+        android:layout_width="267dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/letter_logo_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254"
+        app:srcCompat="@drawable/santo_tomas_letter" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_txt_EULA"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
+
+    <Button
+        android:id="@+id/btn_edit_user"
+        android:layout_width="148dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/SantoTomas"
+        android:text="@string/btn_SignUp_description"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949" />
+
+    <TableLayout
+        android:layout_width="338dp"
+        android:layout_height="314dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643">
+
+        <TableRow
+            android:layout_width="290dp"
+            android:layout_height="44dp">
+
+            <ImageView
+                android:id="@+id/user_icon"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:contentDescription="@string/logo_description"
+                app:srcCompat="@drawable/user_icon"
+                tools:srcCompat="@drawable/user_icon" />
+
+            <EditText
+                android:id="@+id/usernameEditTextView"
+                android:layout_width="235dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/txt_username_SignUp_description"
+                android:inputType="text"
+                android:textColor="@color/SantoTomas"
+                android:backgroundTint="@color/SantoTomas"
+                android:textColorHint="@color/SantoTomas"
+                android:autofillHints="username"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/email_icon"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/email_icon"
+                tools:srcCompat="@drawable/email_icon"
+                android:contentDescription="@string/logo_description"/>
+
+            <EditText
+                android:id="@+id/emailEditTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:ems="10"
+                android:hint="@string/txt_email_SignUp_description"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/SantoTomas"
+                android:backgroundTint="@color/SantoTomas"
+                android:textColorHint="@color/SantoTomas"
+                android:autofillHints="emailAddress"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/phone_icon"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:contentDescription="@string/logo_description"
+                app:srcCompat="@drawable/phone_icon"
+                tools:srcCompat="@drawable/phone_icon" />
+
+            <EditText
+                android:id="@+id/txt_SignUp_Edit_Phone"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:ems="10"
+                android:hint="@string/txt_phone_SignUp_description"
+                android:inputType="phone"
+                android:textColor="@color/SantoTomas"
+                android:backgroundTint="@color/SantoTomas"
+                android:textColorHint="@color/SantoTomas"
+                android:autofillHints="phone"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/password_icon"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:contentDescription="@string/logo_description"
+                app:srcCompat="@drawable/password_icon"
+                tools:srcCompat="@drawable/password_icon" />
+
+            <EditText
+                android:id="@+id/txt_SignUp_Edit_Password"
+                android:layout_width="223dp"
+                android:layout_height="75dp"
+                android:ems="10"
+                android:hint="@string/txt_password_SignUp_description"
+                android:inputType="textPassword"
+                android:textColor="@color/SantoTomas"
+                android:backgroundTint="@color/SantoTomas"
+                android:textColorHint="@color/SantoTomas"
+                android:autofillHints="password"/>
+        </TableRow>
+    </TableLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

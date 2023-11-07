@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity_EULA">
+
+    <ScrollView
+        android:layout_width="396dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_ST_Letter_EULA"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:contentDescription="@string/letter_logo_description"
+                app:srcCompat="@drawable/santo_tomas_letter" />
+
+            <TextView
+                android:id="@+id/espacio_en_blanco_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_vacio" />
+
+            <TextView
+                android:id="@+id/espacio_en_blanco_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_vacio" />
+
+            <TextView
+                android:id="@+id/parrafo_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_EULA_1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/salto_linea_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_vacio" />
+
+            <TextView
+                android:id="@+id/parrafo_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_EULA_2"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/salto_linea_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_vacio" />
+
+            <TextView
+                android:id="@+id/parrafo_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_EULA_3"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/salto_linea_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_vacio" />
+
+            <TextView
+                android:id="@+id/parrafo_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_EULA_4"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/salto_linea_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_vacio" />
+
+            <TextView
+                android:id="@+id/parrafo_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_EULA_5"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/salto_linea_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_vacio" />
+
+            <TextView
+                android:id="@+id/parrafo_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_EULA_6"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/salto_linea_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_vacio" />
+
+            <TextView
+                android:id="@+id/parrafo_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_EULA_7"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/salto_linea_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_vacio" />
+
+            <TextView
+                android:id="@+id/parrafo_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_EULA_8"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/salto_linea_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_vacio" />
+
+            <TextView
+                android:id="@+id/parrafo_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_EULA_9"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
